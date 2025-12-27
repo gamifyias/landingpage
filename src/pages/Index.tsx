@@ -2,14 +2,17 @@ import Navigation from "@/components/Navigation";
 import InfiniteCardScroller from "@/components/InfiniteCardScroller";
 import FooterSection from "@/components/FooterSection";
 import FloatingParticles from "@/components/FloatingParticles";
+import SEOContentSection from "@/components/SEOContentSection";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Gamify IAS - Master UPSC But Like Game</title>
-        <meta name="description" content="Prepare for IAS with the most engaging and effective platform. Gamify your learning, track progress, and join the elite ranks of Civil Services aspirants." />
+        <title>Gamify IAS - Master UPSC with Amogh Varsha | Gamified Academy</title>
+        <meta name="description" content="Join Gamify IAS Academy by Amogh Varsha. Master UPSC Prelims and Mains using our AI bot, smart LMS, and Secondmom mentorship. Experience true gamification in education." />
+        <meta name="keywords" content="Amogh Varsha, gamify ias, gamify ias academy, gamification in education, upsc, prelims, mains, gamify upsc, Secondmom mentorship, upsc ai bot, upsc lms, rank first upsc" />
+        <link rel="canonical" href="https://www.gamifyias.in/" />
       </Helmet>
 
       <div className="relative min-h-screen overflow-x-hidden">
@@ -72,6 +75,7 @@ const Index = () => {
             </div>
           </section> */}
 
+          <SEOContentSection />
           <FooterSection />
         </main>
       </div>
